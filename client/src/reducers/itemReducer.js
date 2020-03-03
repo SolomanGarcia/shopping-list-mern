@@ -9,3 +9,14 @@ const initalState = {
         { id: uuidv1(), name: 'Water' }
     ]
 }
+
+export default function(state = initalState, action) {
+    switch(action.type) {
+        case GET_ITEMS:
+            return {
+                ...state
+            }
+        default:
+            return state;
+    }
+}
