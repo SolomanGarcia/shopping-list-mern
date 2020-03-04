@@ -20,7 +20,7 @@ class ItemModal extends Component {
 
     toggle = () => {
         this.setState({
-            model: !this.state.modal
+            modal: !this.state.modal
         });
     }
 
