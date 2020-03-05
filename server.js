@@ -5,7 +5,7 @@ const config = require('config');
 
 const app = express();
 
-// BodyParser Middleware
+//  Middleware
 app.use(express.json());
 
 // DB config
